@@ -2,12 +2,12 @@ import React from "react";
 
 const App = () => {
   return (
-    <div className="flex justify-center">
+    <div className="group-1 flex justify-center">
       <a
         href="https://github.com/hyhong-code/tailwind-react-starter"
         target="_blank"
         rel="noopener noreferrer"
-        className="btn m-4 inline-block bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white transform hover:scale-110 transition ease-out duration-300"
+        className="group-1-hover:bg-teal-100 btn m-4 inline-block bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white transform hover:scale-110 transition ease-out duration-300"
       >
         Tailwind with React
         {/* Icon from https://heroicons.com/ */}
