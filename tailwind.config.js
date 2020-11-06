@@ -18,7 +18,8 @@ module.exports = {
         body: ["Nunito"], // will generate class name: font-body
       },
     },
+    namedGroups: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"], // For nested groups
   },
   variants: {},
-  plugins: [],
+  plugins: [require("tailwindcss-named-groups")],
 };
