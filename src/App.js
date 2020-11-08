@@ -1,37 +1,47 @@
-import React from "react";
-
 const App = () => {
   return (
-    <div className="group-1 flex justify-center">
-      <a
-        href="https://github.com/hyhong-code/tailwind-react-starter"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="group-1-hover:bg-teal-100 btn m-4 inline-block bg-white text-primary border-2 border-primary hover:bg-primary hover:text-white transform hover:scale-110 transition ease-out duration-300"
-      >
-        Tailwind with React
-        {/* Icon from https://heroicons.com/ */}
-        <svg
-          className="w-4 inline-block align-middle"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"
-          />
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z"
-          />
-        </svg>
-      </a>
+    <div className="container mx-auto">
+      <div className="relative z-10">
+        <button className="block mx-auto px-8 py-4 rounded-full border border-gray-800">
+          Open Modal
+        </button>
+      </div>
+
+      <div className="relative z-20">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
+        odio eligendi neque quo sit eos nemo esse, animi pariatur distinctio
+        aperiam unde quam officiis asperiores dolorum minima temporibus tempora
+        similique ipsam? Delectus perferendis iste ea nam assumenda dolor
+        laudantium. Quas voluptatem quis ut eaque repellendus qui distinctio
+        optio vel debitis! Architecto repudiandae maxime sit, libero vel nobis
+        sequi ex totam pariatur, quidem vitae esse ipsam magnam, ipsa quae
+        voluptas distinctio ipsum! Velit cupiditate est laborum voluptatem
+        blanditiis fuga harum iure quo, voluptatibus rerum temporibus labore
+        tempora expedita voluptate cum quibusdam eius, nemo deleniti vitae iste
+        nesciunt consectetur! Rem totam facilis, velit quasi, soluta saepe,
+        impedit quisquam ratione nesciunt autem beatae amet at excepturi eos.
+        Numquam, animi reprehenderit! Distinctio cupiditate earum, vero
+        reprehenderit totam modi assumenda non sapiente id pariatur molestiae
+        aliquam nam! Illo quia, accusamus ex explicabo, consequuntur ea officiis
+        provident nam quibusdam voluptatum error a exercitationem delectus
+        minima illum? Sequi labore quam consequatur non dolores dolorem earum
+        exercitationem ullam accusamus atque cum, quasi id eius animi velit.
+        Magnam, nemo. Sequi, quis perspiciatis vero molestiae esse fugiat omnis
+        labore. Est error facere accusantium, repellendus eaque culpa, laborum
+        amet distinctio animi quasi ut molestias sapiente ab praesentium nihil
+        aliquid repudiandae! Cupiditate tempore dolores voluptates sint nobis
+        voluptatem voluptatum numquam accusantium eos optio expedita molestiae
+        praesentium est amet excepturi, provident fugit veritatis officia.
+        Quidem cupiditate, necessitatibus totam quibusdam modi voluptate sint,
+        vel dolorem veritatis fuga placeat soluta quod culpa eveniet tenetur. Ea
+        eum veritatis ut reprehenderit dolores numquam harum, deserunt ipsam
+        quod nam. Voluptatem quas odio inventore magni autem nemo minima et
+        quibusdam ad laudantium, officiis pariatur iste alias dolores explicabo
+        rerum possimus nostrum culpa dolor blanditiis debitis labore natus
+        delectus aspernatur? Odit velit reiciendis fugit, nobis non rerum
+        accusantium adipisci dolore fugiat beatae, quos voluptatum doloribus
+        cum, sed nulla numquam quo!
+      </div>
     </div>
   );
 };
